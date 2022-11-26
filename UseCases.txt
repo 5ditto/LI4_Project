@@ -4,6 +4,7 @@ Use Cases
  - Fazer login
  - Terminar sessão 
  - Adicionar feira
+ - Adicionar feirante  -- not
  - Adicionar produtos
  - Adicionar empresa
  - Fazer comentário em Feirante ou Feira
@@ -104,65 +105,78 @@ Fluxo de Exceção (2): [Utilizador cancela o comentário] (2)
 	2.1 Operação Cancelada
 
 
-Use Case:  Adicionar feira/feirante ou produto à lista de favoritos
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Use Case:  Adicionar feira/feirante/produto à lista de favoritos
+Descrição: Utilizador pretende adicionar um feirante/feira/produto a sua lista de favoritos
+Pré-Condição: Utilizador tem sessão iniciada e esta na pagina de uma feira, feirante ou produto
+Pós-Condição: Feira/Feirante/Produto fica guardado na lista de favoritos do Utilizador  
 Fluxo Normal:
+	1. Sistema verifica o que o utilizador pretende adicionar aos favoritos e guarda na lista respectiva e avisa o utilizador do mesmo 
 
 
 Use Case:  Consultar estatísticas
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Descrição:  Feirante/Empresa pretende consultar as suas estatisticas
+Pré-Condição:  Utilizador tem sessão iniciada e é do tipo Feirante/Empresa
+Pós-Condição:  As estatísticas são apresentadas ao utilizador
 Fluxo Normal:
-
+	1. Sistema procura na Base de Dados as estatísticas acerca do Feirante/Empresa (numero de entradas na pagina, cliques no link, numero de pessoas que adicionaram aos favoritos, quantos produtos adicionaram aos favoritos)
+	2. Sistema apresenta essa informação ao Utilizador
 
 Use Case:  Pesquisar produto/feirante/feira
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Descrição:  Utilizador pretende pesquisar um produto/feirante/feira
+Pré-Condição:  True
+Pós-Condição:  É apresentada ao utilizador a informação pesquisada
 Fluxo Normal:
+	1. Sistema apresenta ao utilizador uma barra de pesquisa
+	2. Utilizador escreve a informação que pretende pesquisar
+	3. Sistema procura na sua base de dados a informação
+	4. Sistema apresentada a informação
 
-
+Fluxo de Exceção (1): [informação não encontrada] (3)
+	3.1 Sistema avisa o Utilizador que a informação pesquisada não corresponde a nenhuma informação n na Base de Dados
 
 Use Case:  Remover da lista de favoritos
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Descrição:  Utilizador pretende remover da sua lista de favoritos algo 
+Pré-Condição:  Utilizador tem sessão iniciada
+Pós-Condição:  A lista de favoritos do Utilizador deixa de ter o que ele pretende remover
 Fluxo Normal:
+	1. Sistema apresenta ao Utilizador a sua lista de favoritos
+	2. Utilizador seleciona os itens que quer remover da sua lista de favoritos
+	3. Sistema remove o que o Utilizador selecionou da sua lista de favoritos
 
 
 
 Use Case:  Filtrar feira por data,categoria,empresa,localização
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Descrição:  Utilizador pretende pesquisar uma feira e filtrar a sua data, categoria, empresa, localização 
+Pré-Condição:  Utilizador está a procurar uma feira
+Pós-Condição:  É apresentada ao utilizador a informação da sua pesquisa com os filtros aplicados
 Fluxo Normal:
+	1. Sistema apresentada ao utilizador uma lista de filtros
+	2. Utilizador indica os filtros a aplicar
+	3. Sistema procura a informação filtrada na Base de Dados
+	4. Sistema apresenta a informação filtrada
+
+Fluxo de Exceção (1): [informação fil não encontrada] (3)
+	3.1 Sistema avisa o Utilizador que a informação pesquisada não corresponde a nenhuma informação n na Base de Dados
 
 
 
 Use Case:  Reportar erro 
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Descrição:  Utilizador encontra um erro na aplicação e pretende avisar os desenvolvedores acerca do mesmo
+Pré-Condição:  Utilizador tem sessão iniciada
+Pós-Condição:  Erro é reportado aos desenvolvedores
 Fluxo Normal:
+	1. Sistema solicita ao Utilizador que descreva o erro e/ou anexe ficheiros de demonstração
+	2. Sistema verifica se a descrição é apropriada (não possui calão)
+	3. Sistema guarda a descrição do erro
 
+Fluxo de Exceção (1): [descrição não é apropriada] (2)
+	2.1 Operação Cancelada
 
 
 Use Case:  Consultar lista de feiras sugeridas
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
+Descrição:  Utilizador pretende saber quais sao as listas sugeridas 
+Pré-Condição:  True
+Pós-Condição:  Informação é apresentada ao utilizador
 Fluxo Normal:
-
-
-
-
-Use Case:  Notificar um utilizador
-Descrição: 
-Pré-Condição: 
-Pós-Condição: 
-Fluxo Normal:
-
-
+	1. Sistema procura na Base de Dados as feiras sugeridas (com mais visitas nos ultimos 7 dias e com mais Produtos adicionados aos favoritos)
+	2. Sistema apresentada a informação ao Utilizador
