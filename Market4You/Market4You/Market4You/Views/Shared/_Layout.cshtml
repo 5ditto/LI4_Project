@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
+        <img src="~/Content/logotipo-removebg-preview.png" class="logo" width="100" height="57">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="more options">
@@ -20,8 +21,11 @@
                 @Html.ActionLink("Market For You", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
+
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <!-- <li>@Html.ActionLink("Home", "Index", "Home")</!--li> -->
+                    <li>@Html.ActionLink("Categorias", "Index", "Categorias")</li>
+                    <li>@Html.ActionLink("Feiras", "Index", "Feiras")</li>
 
                 </ul>
                 @Html.Partial("_LoginPartial")

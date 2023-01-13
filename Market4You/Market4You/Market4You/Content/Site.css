@@ -3,6 +3,17 @@
     padding-bottom: 20px;
 }
 
+.logo {
+    position: absolute; 
+    top: 5px;
+    left: 280px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -25,6 +36,6 @@ textarea {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #777;
-    border-color: #fff
+    background-color: #ffffff;
+    border-color: #0094ff;
 }

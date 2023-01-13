@@ -13,14 +13,14 @@ namespace Market4You.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Categorias()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Feiras()
         {
             ViewBag.Message = "Your contact page.";
 
