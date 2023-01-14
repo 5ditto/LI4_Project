@@ -10459,19 +10459,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\susan\\.nuget\\packages\\": {}
+    "C:\\Users\\Burak\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\susan\\Desktop\\MarketForYou\\MarketForYou.csproj",
+      "projectUniqueName": "C:\\Users\\Burak\\Desktop\\Trabalho LI4\\LI4_Project\\MarketForYou\\MarketForYou.csproj",
       "projectName": "MarketForYou",
-      "projectPath": "C:\\Users\\susan\\Desktop\\MarketForYou\\MarketForYou.csproj",
-      "packagesPath": "C:\\Users\\susan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\susan\\Desktop\\MarketForYou\\obj\\",
+      "projectPath": "C:\\Users\\Burak\\Desktop\\Trabalho LI4\\LI4_Project\\MarketForYou\\MarketForYou.csproj",
+      "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Burak\\Desktop\\Trabalho LI4\\LI4_Project\\MarketForYou\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\susan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
