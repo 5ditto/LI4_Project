@@ -7,14 +7,16 @@ namespace MarketForYou.Models
         public string usernameFei { get; set; }
         public string emailFei { get; set; }
         public string passwordFei { get; set; }
+        public int numVisitasFei { get; set; }
         public int feiraID { get; set; }
 
         public Feirante() { }
-        public Feirante (string usernameF, string emailF, string passwordF, int fID)
+        public Feirante (string usernameFe, string emailFe, string passwordFe, int numVisitasFe, int fID)
         {
-            this.usernameFei = usernameF;
-            this.emailFei = emailF;
-            this.passwordFei = passwordF;
+            this.usernameFei = usernameFe;
+            this.emailFei = emailFe;
+            this.passwordFei = passwordFe;
+            this.numVisitasFei = numVisitasFe;
             this.feiraID = fID;
         }
     }
