@@ -1,7 +1,11 @@
-﻿namespace MarketForYou.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing.Printing;
+
+namespace MarketForYou.Models
 {
     public class Produtos
     {
+        [Key]
         public int produtoID { get; set; }
         public string nomeProd { get; set; }
         public string categoriaProd { get; set; }

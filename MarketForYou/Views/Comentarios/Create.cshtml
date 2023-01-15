@@ -1,0 +1,48 @@
+﻿@model MarketForYou.Models.Comentario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Comentario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="descricaoComentario" class="control-label"></label>
+                <input asp-for="descricaoComentario" class="form-control" />
+                <span asp-validation-for="descricaoComentario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="usernameCliente" class="control-label"></label>
+                <input asp-for="usernameCliente" class="form-control" />
+                <span asp-validation-for="usernameCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="usernameFei" class="control-label"></label>
+                <input asp-for="usernameFei" class="form-control" />
+                <span asp-validation-for="usernameFei" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="feiraID" class="control-label"></label>
+                <input asp-for="feiraID" class="form-control" />
+                <span asp-validation-for="feiraID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

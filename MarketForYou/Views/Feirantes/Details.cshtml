@@ -1,0 +1,42 @@
+﻿@model MarketForYou.Models.Feirante
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Feirante</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.emailFei)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.emailFei)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.passwordFei)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.passwordFei)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.numVisitasFei)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.numVisitasFei)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.feiraID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.feiraID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.usernameFei">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

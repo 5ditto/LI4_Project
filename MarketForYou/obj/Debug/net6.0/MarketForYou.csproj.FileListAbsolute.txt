@@ -836,4 +836,3 @@ C:\Users\larbe\Desktop\LI4_Project\MarketForYou\obj\Debug\net6.0\refint\MarketFo
 C:\Users\larbe\Desktop\LI4_Project\MarketForYou\obj\Debug\net6.0\MarketForYou.pdb
 C:\Users\larbe\Desktop\LI4_Project\MarketForYou\obj\Debug\net6.0\MarketForYou.genruntimeconfig.cache
 C:\Users\larbe\Desktop\LI4_Project\MarketForYou\obj\Debug\net6.0\ref\MarketForYou.dll
-C:\Users\larbe\Desktop\LI4_Project\MarketForYou\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutLog.cshtml.rz.scp.css

@@ -1,9 +1,11 @@
-﻿using System.Drawing.Printing;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing.Printing;
 
 namespace MarketForYou.Models
 {
     public class Feirante
     {
+        [Key]
         public string usernameFei { get; set; }
         public string emailFei { get; set; }
         public string passwordFei { get; set; }

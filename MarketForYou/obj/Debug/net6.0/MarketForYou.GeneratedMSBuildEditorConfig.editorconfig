@@ -128,8 +128,68 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feiras/Feiras.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFzXEZlaXJhcy5jc2h0bWw=
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Comentarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Comentarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Comentarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Comentarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Comentarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feirantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFudGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feirantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFudGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feirantes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFudGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feirantes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFudGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feirantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFudGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feiras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feiras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feiras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feiras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Feiras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVpcmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Home/Feiras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWlyYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Home/Index.cshtml]
@@ -140,12 +200,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Home/Produtos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Home/ReportError.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnRFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Produtos/Produtos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcUHJvZHV0b3MuY3NodG1s
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Produtos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Produtos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/ReportErros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0RXJyb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/ReportErros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0RXJyb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/ReportErros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0RXJyb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/ReportErros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0RXJyb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/ReportErros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0RXJyb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Shared/Error.cshtml]
@@ -171,7 +271,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lnsqq1lwru
-
-[C:/Users/larbe/Desktop/LI4_Project/MarketForYou/Views/Shared/_LayoutLog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2cuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-3gbtxru5wr
